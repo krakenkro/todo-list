@@ -1,3 +1,9 @@
+## Использование
+git clone https://github.com/krakenkro/todo-list.git
+composer install
+php artisan migrate
+php artisan db:seed --class=TaskSeeder
+php artisan serve
 ## Энпоинты
 
 - `api/tasks` - Запрос на получение всех задач.
